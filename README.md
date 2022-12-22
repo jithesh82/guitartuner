@@ -1,5 +1,5 @@
 # guitartuner
 python tkinter app to tune guitar. 
 
-# usage
+## usage
 python3 myguitargui.py
