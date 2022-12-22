@@ -8,4 +8,4 @@ python3 myguitargui.py
 ![alt text](https://github.com/jithesh82/guitartuner/blob/main/screenshot.png)
 
 ## demo video
-![alt text](https://github.com/jithesh82/guitartuner/blob/main/demo.mp4)
+![alt text](https://github.com/jithesh82/guitartuner/blob/main/demo.gif)
