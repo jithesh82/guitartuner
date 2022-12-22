@@ -1,4 +1,14 @@
 #! /usr/bin/env python
+"""
+A part of of this code is taken from one of the demo file of
+aubio @ https://github.com/aubio/aubio/blob/master/python/demos/demo_alsa.py
+
+Frequencies of music notes are taken from 
+https://pages.mtu.edu/~suits/notefreqs.html to create notefreq.pkl
+
+Thank you!
+
+"""
 import alsaaudio
 import numpy as np
 import aubio
@@ -8,7 +18,11 @@ from mytools import *
 
 def measureFrequency(que):
 
-    # note-freq table
+    # note-freq table - list of two lists
+    # [
+    #  [f1,    f2,    f3......],
+    #  [note1, note2, note3,....]
+    # ]
     freqnote = load('notefreq.pkl')
     #print(freqnote)
 
