@@ -7,7 +7,10 @@ import time
 import random
 from queue import Queue, Empty
 from threading import Thread
-from _guitartuner import measureFrequency
+if sys.platform == 'linux':
+    from _guitartuner import measureFrequency
+else:
+    from _guitartuner_windows import measureFrequency
 
 width = 300
 height = width//2
