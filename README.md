@@ -5,13 +5,17 @@ python tkinter app to tune guitar.
 
 On linux install pyalsaaudio and aubio as:
 
-`pip install -U pyalsaaudio`
-`pip install -U aubio`
+```
+pip install -U pyalsaaudio
+pip install -U aubio
+```
 
 On systems if alsaaudio is not available you could use pyaudio and aubio:
 
-`pip install -U pyaudio`
-`pip install -U aubio`
+```
+pip install -U pyaudio
+pip install -U aubio
+```
 
 Then run the program using:
 
