@@ -1,5 +1,5 @@
 # guitartuner
-python tkinter app to tune guitar. 
+A guitar tuner app written in python.  It can be used to tune guitar regularly as well while changing the guitar strings to to tune the strings.  
 
 ## usage
 
@@ -17,9 +17,14 @@ pip install -U pyaudio
 pip install -U aubio
 ```
 
-Then run the program using:
+Then run the program from script as:
 
-`python3 myguitargui.py`
+`from guitartuner import myguitargui`
+`myguitargui.startTuner()`
+
+or from commandline as
+
+`guitartuner`
 
 ## screenshot
 ![alt text](https://github.com/jithesh82/guitartuner/blob/main/screenshot.png)
