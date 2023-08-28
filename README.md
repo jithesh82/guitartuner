@@ -19,8 +19,10 @@ pip install -U aubio
 
 Then run the program from script as:
 
-`from guitartuner import myguitargui`
-`myguitargui.startTuner()`
+```
+from guitartuner import myguitargui
+myguitargui.startTuner()
+```
 
 or from commandline as
 
