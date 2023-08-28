@@ -15,6 +15,8 @@ import aubio
 import sys
 sys.path.append('/home/jk/jk/python/')
 from mytools import *
+import os
+import pathlib
 
 def measureFrequency(que):
 
@@ -23,7 +25,9 @@ def measureFrequency(que):
     #  [f1,    f2,    f3......],
     #  [note1, note2, note3,....]
     # ]
-    freqnote = load('notefreq.pkl')
+    curdir = pathlib.Path(__file__).parent.resolve()
+    freqpath = os.path.join(curdir, 'notefreq.pkl')
+    freqnote = load(freqpath)
     #print(freqnote)
 
     # constants
