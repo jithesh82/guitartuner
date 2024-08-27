@@ -1,0 +1,24 @@
+[build-system]
+requires =['hatchling']
+build-backend = "hatchling.build"
+
+[project]
+name = "guitartuner"
+version = "0.0.2"
+authors = [
+  { name="Jithesh Kuyyalil", email="jithesh82@gmail.com" },
+]
+description = "A tuner app written in python to tune guitars."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jithesh82/guitartuner"
+"Bug Tracker" = "https://github.com/jithesh82/guitartuner"
+[project.scripts]
+guitartuner = "guitartuner.myguitargui:startTuner"

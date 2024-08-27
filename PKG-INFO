@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: guitartuner
+Version: 0.0.2
+Summary: A tuner app written in python to tune guitars.
+Project-URL: Homepage, https://github.com/jithesh82/guitartuner
+Project-URL: Bug Tracker, https://github.com/jithesh82/guitartuner
+Author-email: Jithesh Kuyyalil <jithesh82@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# guitartuner
+A guitar tuner app written in python.  It can be used to tune guitar regularly as well while changing the guitar strings to to tune the strings.  
+
+## usage
+
+On linux install pyalsaaudio and aubio as:
+
+```
+pip install -U pyalsaaudio
+pip install -U aubio
+```
+
+On systems if alsaaudio is not available you could use pyaudio and aubio:
+
+```
+pip install -U pyaudio
+pip install -U aubio
+```
+
+Then run the program from script as:
+
+`from guitartuner import myguitargui`
+`myguitargui.startTuner()`
+
+or from commandline as
+
+`guitartuner`
+
+## screenshot
+![alt text](https://github.com/jithesh82/guitartuner/blob/main/screenshot.png)
+
+## demo video
+![alt text](https://github.com/jithesh82/guitartuner/blob/main/demo.gif)
